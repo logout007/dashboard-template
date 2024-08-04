@@ -4,6 +4,7 @@ import StatsCard from './StatsCard';
 import ActivityChart from './ActivityChart';
 import RecentOrders from './RecentOrders';
 import Feedback from './Feedback';
+import InfoCardList from './infoCardList';
 
 const Dashboard = () => {
   return (
@@ -16,6 +17,9 @@ const Dashboard = () => {
       </section>
       <section className="activity">
         <ActivityChart />
+      </section>
+      <section>
+        <InfoCardList/>
       </section>
       <section className="orders">
         <RecentOrders />

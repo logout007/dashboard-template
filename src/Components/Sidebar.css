@@ -1,0 +1,24 @@
+.sidebar {
+    width: 70px;
+    background-color: #1a1a2e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+  }
+  
+  .logo {
+    margin-bottom: 2rem;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .menu-item {
+    margin: 1rem 0;
+    cursor: pointer;
+  }
+  

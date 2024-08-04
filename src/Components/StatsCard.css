@@ -1,0 +1,32 @@
+.stats-card {
+    background-color: #1e1e2e;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .stats-icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+  
+  .stats-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .stats-title {
+    font-size: 1.2rem;
+    color: #888;
+  }
+  
+  .stats-value {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .stats-change {
+    font-size: 1rem;
+  }
+  

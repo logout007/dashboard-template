@@ -1,0 +1,35 @@
+.feedback {
+    background-color: #1e1e2e;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  .feedback-item {
+    margin-bottom: 1rem;
+  }
+  
+  .feedback-user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .user-avatar {
+    background-color: #333;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+  }
+  
+  .user-name {
+    font-weight: bold;
+  }
+  
+  .user-rating {
+    color: #ffcc00;
+  }
+  

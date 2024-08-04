@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .header input {
+    width: 300px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .header-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-icons span {
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,44 @@
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+  }
+  
+  .stats {
+    grid-column: span 3;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .activity {
+    grid-column: span 2;
+  }
+  
+  .orders {
+    grid-column: span 2;
+  }
+  
+  .feedback {
+    grid-column: span 1;
+  }
+  
+  section {
+    background-color: #252545;
+    border-radius: 10px;
+    padding: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard {
+      grid-template-columns: 1fr;
+    }
+  
+    .stats {
+      flex-direction: column;
+    }
+  
+    .activity, .orders, .feedback {
+      grid-column: span 1;
+    }
+  }
+  
